@@ -54,5 +54,5 @@ loadHouseholdData <- function() {
                nrow = 2880)
 }
 
-#household <- loadHouseholdData() 
-#plotHouseholdGraphs(household)
+household <- loadHouseholdData() 
+plotHouseholdGraphs(household)
